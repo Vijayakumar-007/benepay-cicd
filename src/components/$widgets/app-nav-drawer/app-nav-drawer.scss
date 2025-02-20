@@ -1,0 +1,83 @@
+
+// .MuiListItemText-root > .MuiTypography-body1 {
+//     font-size: 0.9rem !important;
+//     // font-weight: 450;
+// }
+
+
+.items-center {
+    align-items: 'center';
+    text-align: center;
+}
+
+.transition{
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 300ms;
+}
+
+.menuItemText{
+    font-size: '20px';
+    color: '#495370';
+    font-weight: 'normal';
+    margin-top: '6px';
+}
+
+.menuItemTextActive{
+    font-size: '20px';
+    color: '#495370';
+    font-weight: 'normal';
+    margin-top: '6px';
+}
+
+.menuItemIconDiv{
+    display: 'flex';
+    justify-content: 'center';
+    align-items: 'center';
+    width: '32px';
+    height: '32px';
+    margin-right: '1rem';
+}
+
+.toast-message{
+	background-color: white;
+	font-size: 16px;
+	border-bottom: 6px solid #00c851;
+	color: #1A1A1C;
+	font-weight: 600;
+	padding: 0px 16px 0 16px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	border-radius: 4px;
+}
+
+.toast-success{
+	border-bottom: 6px solid #007E33;
+}
+
+.toast-info{
+	border-bottom: 6px solid #0099CC;
+}
+
+.toast-error{
+	border-bottom: 6px solid #CC0000;
+}
+
+@media only screen and (max-width: 720px) {
+	#sideNavbar{
+        display: none;
+    }
+}
+
+:root{
+    --gap: 40px;
+    --height-menu: 34px;
+}
+
+@media only screen and (max-width: 1550px){
+    :root{
+        --gap: 36px;
+        --height-menu: 30px;
+    }
+}

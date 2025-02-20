@@ -1,0 +1,97 @@
+.messages{
+    border: 1px solid #8080804a;
+}
+
+.messageCloseIcon2{
+    display: none;
+}
+
+.messageCloseIcon-accordion{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+@media screen and (max-width: 1787px) {
+    .messageBody {
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1199px) and (max-width: 1691px){
+    .messageBody {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.messageSubjectColor-General{
+    background: linear-gradient(270deg, #f4f4f4 70%, #b5e48c 100%);
+}
+
+.messageSubjectColor-Critical {
+    background: linear-gradient(270deg, #f4f4f4 70%, #780000 100%);
+    color: #f4f4f4;
+}
+
+.messageSubjectColor-Warning {
+    background: linear-gradient(270deg, #f4f4f4 70%, #fb8500 100%);
+}
+
+.messageSubjectColor-accordion-General{
+    background: linear-gradient(270deg, #f4f4f4 1%, #b5e48c 100%);
+}
+
+.messageSubjectColor-accordion-Critical {
+    background: linear-gradient(270deg, #f4f4f4 2%, #780000 100%);
+    color: #f4f4f4;
+}
+
+.messageSubjectColor-accordion-Warning {
+    background: linear-gradient(270deg, #f4f4f4 2%, #fb8500 100%);
+}
+
+
+@media screen and (max-width: 1199px) {
+    .messageCloseIcon1{
+        display: none !important;
+    }
+
+    .messageCloseIcon2{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .messageSubjectColor-General{
+        background:linear-gradient(270deg, #f4f4f4 10%, #b5e48c 100%) !important;
+    }
+
+    .messageSubjectColor-Critical {
+        background: linear-gradient(270deg, #f4f4f4 10%, #780000 100%);
+    }
+    
+    .messageSubjectColor-Warning {
+        background: linear-gradient(270deg, #f4f4f4 10%, #fb8500 100%);
+    }
+
+}
+
+
+.modal-General{
+    background:linear-gradient(270deg, #f4f4f4 1%, #b5e48c 100%) !important;
+}
+
+.modal-Critical {
+    background: linear-gradient(270deg, #f4f4f4 1%, #780000 100%);
+    color: white;
+}
+
+.modal-Warning {
+    background: linear-gradient(270deg, #f4f4f4 1%, #fb8500 100%);
+}

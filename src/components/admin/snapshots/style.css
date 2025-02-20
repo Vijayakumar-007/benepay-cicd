@@ -1,0 +1,9 @@
+.requestDump .MuiAutocomplete-root .MuiOutlinedInput-root{
+    padding: 3px;
+}
+.snapshotDataTable p{
+    margin-top: 5%;
+}
+.snapshotDataTable .MuiDataGrid-overlayWrapper{
+    min-height: 50px;
+}

@@ -1,0 +1,189 @@
+/**
+ * @author Anurag Pundir
+ *
+ */
+
+
+/* merchant.scss */
+.blue-header {
+  background-color: #ddd;
+  color: black;
+  font-weight: bold;
+  /* Optionally, make the font bold */
+}
+
+.divider {
+  /* Adjust the color as needed */
+  margin-top: 10px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border: 0;
+  width: '100%'
+}
+
+.downloadButton {
+  margin-top: -4.79%;
+  ;
+  padding-top: 15px;
+}
+
+.custom-data-grid .MuiTablePagination-toolbar {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  // margin-top: 5.2rem;
+  padding-top: 15px;
+  padding-left: 10px;
+
+
+}
+
+.custom-data-grid .MuiTablePagination-actions {
+  display: flex;
+  align-items: center;
+  padding-bottom: 16px;
+}
+
+.custom-data-grid .MuiTablePagination-input {
+  margin-right: 10px;
+}
+
+/* Style the rows per page selector */
+.custom-data-grid .MuiTablePagination-selectIcon {
+  color: var(--primary-color);
+  padding-bottom: 8px;
+}
+
+/* Style the multi-selector icon */
+.custom-data-grid .MuiTablePagination-menuItem {
+  color: var(--primary-color);
+}
+
+.custom-data-grid .MuiTablePagination-selectLabel {
+  align-items: center;
+  padding-bottom: 3px;
+
+}
+
+.custom-data-grid .MuiTablePagination-root {
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  padding-right: 600px;
+
+}
+
+
+.custom-data-grid .MuiTablePagination-actions {
+  display: flex;
+  align-items: center;
+  padding-bottom: 16px;
+}
+
+.custom-data-grid .MuiTablePagination-input {
+  margin-right: 10px;
+}
+
+/* Style the rows per page selector */
+.custom-data-grid .MuiTablePagination-selectIcon {
+  color: var(--primary-color);
+  padding-bottom: 8px;
+}
+
+/* Style the multi-selector icon */
+.custom-data-grid .MuiTablePagination-menuItem {
+  color: var(--primary-color);
+}
+
+.custom-data-grid .MuiTablePagination-selectLabel {
+  align-items: center;
+  padding-bottom: 3px;
+}
+
+.custom-data-grid .css-levciy-MuiTablePagination-displayedRows {
+  padding-top: 1px;
+}
+
+.custom-data-grid .MuiTablePagination-select {
+  padding-bottom: 17px;
+}
+
+.custom-data-grid .MuiIconButton {
+  padding-bottom: 17px;
+}
+
+.custom-data-grid .css-levciy-MuiTablePagination-displayedRows {
+  padding-top: 1px;
+}
+
+.custom-data-grid .MuiTablePagination-select {
+  padding-bottom: 17px;
+}
+
+.custom-data-grid .MuiIconButton {
+  padding-bottom: 17px;
+}
+
+.custom-data-grid .MuiSelect-icon {
+  padding-bottom: 12px;
+}
+
+.tabStyle {
+  text-transform: none !important;
+}
+.header-bg {
+  background-color: #b9dff8e7; /* Light gray */
+  color: #000; /* Optional: Set text color */
+  font-weight: bold;
+}
+
+.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  // border: 1px solid #ced4da;
+  border-radius: .25rem;
+  // transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  padding-right: 40px;
+}
+.MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-input {
+  padding: 0px 0px !important; /* Use !important if needed */
+}
+
+.MuiOutlinedInput-root {
+  /* Default border color and transition */
+  border-color: #ced4da !important;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+  /* Default fieldset styling */
+  & fieldset {
+    border-color: #ced4da !important;
+  }
+
+  /* Hover state: keeps the same border color */
+  &:hover fieldset {
+    border-color: #ced4da !important;
+  }
+
+  /* Focused state with hover: maintains the focus color and applies shadow */
+  &.Mui-focused:hover fieldset {
+    border-color: #50bcd8;
+    box-shadow: 0 0 0 2.5px rgba(98, 182, 238, 0.514);
+  }
+
+  /* Focused state: changes border color and applies shadow */
+  &.Mui-focused fieldset {
+    border-color: #50bcd8;
+    box-shadow: 0 0 0 2.5px  rgba(98, 182, 238, 0.514);
+  }
+}
+
+/* Custom cell background */
+// .cell-bg {
+//   background-color: #e6f7ff; /* Light blue */
+// }

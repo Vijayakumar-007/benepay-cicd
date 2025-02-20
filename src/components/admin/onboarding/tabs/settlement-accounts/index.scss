@@ -1,0 +1,18 @@
+.tableHeaderStyle {
+	background-color:var(--primary-color);
+	color: rgb(255, 255, 255);
+	width: '100%';
+	min-width: fit-content;
+	font-size: var(--font-medium);
+	font-weight: 800;
+	border-bottom: 1px solid #6654C3;
+}
+
+.nowrap-cell{
+    white-space: normal !important;
+}
+
+.settlementAccount p {
+	color: var(--dark-color);
+	margin-top: 10%;
+}

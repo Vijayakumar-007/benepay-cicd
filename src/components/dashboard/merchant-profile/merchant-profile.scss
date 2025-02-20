@@ -1,0 +1,46 @@
+/* merchant.scss */
+.blue-header-for-merchant-profile {
+  background-color:var(--primary-color);
+
+  color: rgb(235, 227, 227) !important;
+  font-weight: bold;
+  /* Optionally, make the font bold */
+}
+
+.blue-header1 {
+  background-color: var(--primary-color);
+
+  color: rgb(235, 227, 227) !important;
+  font-weight: bold;
+  /* Optionally, make the font bold */
+
+}
+
+.blue-header2 {
+  background-color: #b2d7ff6b;
+  font-weight: bold;
+}
+
+.downloadButton {
+  margin-top: -4.79%;
+  ;
+  padding-top: 15px;
+}
+
+.custom-data-grid .MuiTablePagination-toolbar {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  // margin-top: 5.2rem;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.even-row {
+  background-color: #681919;
+  /* Change the color as needed */
+}
+
+.flexContainer {
+  display: inline-flex;
+}

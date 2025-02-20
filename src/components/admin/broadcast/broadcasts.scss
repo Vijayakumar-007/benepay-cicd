@@ -1,0 +1,31 @@
+.submitBtnStyle{
+	color:white !important;
+	text-transform: none !important;
+	background-color: #264d73;
+}
+
+.cancelBtnStyle{
+	color:rgb(0, 0, 0) !important;
+	text-transform: none !important;
+	background-color: #a5a8abb0;
+}
+
+.submitBtnStyle:hover{
+	color: white !important;
+	text-transform: none !important;
+	background-color: #264d73 !important;
+}
+
+.cancelBtnStyle:hover{
+	color:white !important;
+	text-transform: none !important;
+	background-color: #757575b0 !important;
+}
+
+.dataGridHeaderStyle{
+	background-color: #d8ecf7;
+}
+
+.messageHistoryDataGrid p {
+	margin-top: 10%;
+}

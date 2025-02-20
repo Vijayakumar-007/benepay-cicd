@@ -1,0 +1,109 @@
+/* merchant.scss */
+.merchant-summary-blue-header {
+    background-color: var(--primary-color);
+    color: rgb(255, 255, 255);
+    font-weight: bold; /* Optionally, make the font bold */
+  }
+  
+.divider{
+   /* Adjust the color as needed */
+    margin-top: 10px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border: 0;
+    width: '100%' 
+  }
+  
+  .downloadButton{
+     margin-top: -4.79%;;
+    padding-top: 15px;
+  }
+
+  .custom-data-grid .MuiTablePagination-toolbar {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    // margin-top: 5.2rem;
+    padding-top: 15px;
+    padding-left: 10px;
+
+    
+  }
+  .custom-data-grid .MuiTablePagination-actions {
+    display: flex;
+    align-items: center;
+    padding-bottom: 16px; 
+  }
+  .custom-data-grid .MuiTablePagination-input {
+    margin-right: 10px;
+  }
+  /* Style the rows per page selector */
+  .custom-data-grid .MuiTablePagination-selectIcon {
+    color: var(--primary-color);
+    padding-bottom: 8px;
+  }
+  /* Style the multi-selector icon */
+  .custom-data-grid .MuiTablePagination-menuItem {
+    color: var(--primary-color);
+  }
+  .custom-data-grid .MuiTablePagination-selectLabel{
+    align-items: center;
+    padding-bottom: 3px;
+
+  }
+  .custom-data-grid .MuiTablePagination-root {
+    display: flex;
+    padding: 10px;
+    position: absolute;
+    padding-right:600px;
+    
+  }
+ 
+  
+  .custom-data-grid .MuiTablePagination-actions {
+    display: flex;
+    align-items: center;
+    padding-bottom: 16px; 
+  }
+  .custom-data-grid .MuiTablePagination-input {
+    margin-right: 10px;
+  }
+  /* Style the rows per page selector */
+  .custom-data-grid .MuiTablePagination-selectIcon {
+    color: var(--primary-color);
+    padding-bottom: 8px;
+  }
+
+  /* Style the multi-selector icon */
+  .custom-data-grid .MuiTablePagination-menuItem {
+    color: var(--primary-color);
+  }
+  .custom-data-grid .MuiTablePagination-selectLabel{
+    align-items: center;
+    padding-bottom: 3px;
+  }
+  .custom-data-grid .css-levciy-MuiTablePagination-displayedRows{
+    padding-top: 1px;  
+  }
+  .custom-data-grid .MuiTablePagination-select{
+    padding-bottom: 17px;  
+  }
+  .custom-data-grid .MuiIconButton{
+    padding-bottom: 17px; 
+  }
+  .custom-data-grid .css-levciy-MuiTablePagination-displayedRows{
+    padding-top: 1px;  
+  }
+  .custom-data-grid .MuiTablePagination-select{
+    padding-bottom: 17px;  
+  }
+  .custom-data-grid .MuiIconButton{
+    padding-bottom: 17px; 
+  }
+  .custom-data-grid .MuiSelect-icon{
+    padding-bottom: 12px; 
+  }
+  .tabStyle{
+    text-transform: none !important;
+    // color: black !important;
+  }

@@ -1,0 +1,45 @@
+@import "../../assets/css/dimensions";
+.title-bar-main {
+    h5 {
+        height: auto;
+        width: 100%;
+        color: $color-black;
+        font-size: 1rem;
+    }
+
+    hr {
+        margin-right:300px;
+        height: 1px;
+        width: 100%;
+    }
+
+    hr.gray-ruler {
+        background-color: $color-ruler-gray;
+    }
+
+    .blue-heading {
+        color: $color-blue;;
+    }
+
+    hr.blue-ruler {
+        background-color: #ddd;
+    }
+    @media (min-width: 1281px) {
+        h5 {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media (min-width: 577px) {
+    .title-bar-main {
+        align-items:  !important;
+    }
+    .infoIcon {
+        display: none;
+    }
+    .fullWidth {
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+    }
+}

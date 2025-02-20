@@ -1,0 +1,77 @@
+/* AddIndustry.css */
+
+.custom-backdrop {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.295);
+}
+
+.modal-backdrop.show {
+    opacity: 0.5;
+    z-index: 1050;
+}
+
+.modal-dialog {
+    z-index: 1055;
+}
+
+.modal-open .modal {
+    backdrop-filter: blur(1.5px);
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.modal-header {
+    padding: 1.1rem 0rem, ;
+}
+
+.px-4 {
+    padding-left: 0.6rem !important;
+    padding-right: 7rem !important;
+}
+
+.block {
+    color: #474747 !important;
+    font-size: 15px !important;
+    font-weight: 450 !important;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    letter-spacing: 0.00938em;
+}
+
+
+.rounded {
+    border-radius: 0.38rem !important;
+    border: 2px solid #756e6e;
+}
+
+.error-required-msg {
+  position: absolute;
+  left: 0;
+  bottom: -21px; 
+  color: red;
+  font-size: 15px;
+}
+
+// p {
+//     margin-top: 0;
+//     margin-bottom: 0rem;
+// }
+
+.required-label:after {
+    content: ' *';
+    color: rgb(230, 24, 24);
+    /* Add other styles like margin or position if needed */
+  }

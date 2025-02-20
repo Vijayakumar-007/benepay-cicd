@@ -1,0 +1,23 @@
+@import "../../../assets/css/dimensions.scss";
+@import "../../../assets/css/colors.scss";
+
+.app-footer-main {
+  position: relative;
+  // background-color: $color-ruler-gray;
+  //padding: 10px;
+  color: $color-black-x;
+  text-align: center;
+  font-size: 12px;
+  width: calc(100%);
+  overflow-x: auto;
+
+  hr {
+    border: none;
+    height: 1px;
+    background: black;
+  }
+  a {
+    margin: 0px 8px;
+    color: $color-black;
+  }
+}

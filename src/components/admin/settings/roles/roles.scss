@@ -1,0 +1,34 @@
+.text-right{
+	text-align: right;
+}
+
+.react-datepicker-wrapper{
+	width: 100%;
+}
+
+.width-date-picker{
+	width: 100%;
+}
+
+.react-datepicker-wrapper{
+	width: 100% !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+	color: #fff;
+	background-color: var(--prime-color);
+}
+
+.navItem{
+	text-decoration: none;
+}
+
+.navItem.active{
+	// text-decoration: underline;
+	border-bottom: 2px solid #6654C3;
+}
+
+.nav-link {
+	color: #346799;
+}

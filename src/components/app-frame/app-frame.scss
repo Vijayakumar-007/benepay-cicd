@@ -1,0 +1,149 @@
+// .app-frame-main {
+//   display: flex;
+  
+//   .app-container {
+//     width: 80%;
+//     overflow-x: hidden;
+//     // margin: 0 auto;
+//   }
+
+//   main {
+//     flex-grow: 1;
+//   }
+
+// }
+
+// @media only screen and (min-width: 600px) {
+// 	.app-frame-main{
+//     min-height: 100vh;
+//   }
+// }
+
+.scrollbar-none::-webkit-scrollbar{
+    display: none;
+}
+
+.transition{
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 300ms;
+}
+
+:root {
+	// Colors
+	--mobileAccent: #3D85F2;
+	--mobileBorder1: #572594;
+	--mobileBorder2: #E0E0E0;
+	--mobileIconColor: #4C73AE;
+
+	// Font Size
+	// --font-x-small: 14px;
+	// --font-small: 15px;
+	// --font-medium: 16px;
+	// --font-x-medium: 18px;
+	// --font-large: 20px;
+    // --font-x-large: 22px;
+	--font-x-small: 13px;
+	--font-small: 14px;
+	--font-medium: 15px;
+	--font-x-medium: 16px;
+	--font-large: 18px;
+    --font-x-large: 20px;
+
+	// Font Weight
+	--font-weight-normal: 400;
+	--font-weight-medium: 500;
+
+	// icon
+	--icons-size-standard: 24px;
+	--icons-size-xs-standard: 21.6px;
+	--icons-upload-icon: 60px;
+
+	--prime-color: #0c3973;
+
+	--primary-color: #0c3973;
+	--secondary-color: #076DF2;
+	--secondary-light-color: #bad7fc;
+	--accent-color: #032b67;
+	--dark-color: #0E1D26;
+	--light-color: #F2F2F2;
+
+	--light-disabled: #9f9d9d;
+
+}
+
+@media only screen and (max-width: 1550px) {
+	:root{
+		// Font Size
+		// --font-x-small: 13.5px;
+		// --font-small: 14.5px;
+		// --font-medium: 16px;
+		// --font-x-medium: 17px;
+		// --font-large: 19px;
+        // --font-x-large: 21px;
+
+		// // icon
+		// --icons-size-standard: 23px;
+		// --icons-size-xs-standard: 21px;
+
+
+		--font-x-small: 12px;
+		--font-small: 13px;
+		--font-medium: 14px;
+		--font-x-medium: 15px;
+		--font-large: 16px;
+        --font-x-large: 19px;
+
+		// icon
+		--icons-size-standard: 19px;
+		--icons-size-xs-standard: 17px;
+		--icons-upload-icon: 48px;
+	}
+}
+
+// @media only screen and (max-width: 1500px) {
+// 	:root{
+// 		// Font Size
+// 		--font-x-small: 13px;
+// 		--font-small: 14px;
+// 		--font-medium: 15px;
+// 		--font-x-medium: 16px;
+// 		--font-large: 18px;
+//         --font-x-large: 20px;
+
+// 		// icon
+// 		--icons-size-standard: 22px;
+// 		--icons-size-xs-standard: 20px;
+// 	}
+// }
+
+@media only screen and (max-width: 720px) {
+	#mainOutletContainer , #outletContainer {
+		width: 100% !important;
+	}
+
+	#outletContainer{
+		margin: 0;
+		padding: 0 !important;
+	}
+
+	main{
+		padding: 0 !important;
+	}
+}
+
+
+#outletContainer::-webkit-scrollbar{
+	width: 8px;
+	background: #c6ccd4;
+	border-radius: 50px;
+}
+
+#outletContainer::-webkit-scrollbar-thumb{
+	background: #9d83be;
+	border-radius: 50px;
+}
+
+.MuiDataGrid-row:hover{
+	background: var(--secondary-light-color) !important;
+}
